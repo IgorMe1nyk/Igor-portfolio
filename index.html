@@ -1,58 +1,44 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
+    <title>motivational meme project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style></style>
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display&display=swap"
+    rel="stylesheet"
+  />
   <body>
-    <h1>Ihor Melnyk</h1>
-    <img src="./image.jpg" height="150" />
-    <h2>Summary</h2>
-    <p><summary>
-      I am a 19 yars old computer since studend, like to create something on my
-      own that is why I chose to start learning Web Developing.
-    </summary></p>
-    <hr />
-    <h2>Education</h2>
-    <ul>
-      <li>Current student at BCC, with 3.812 GPA (compiuter since major)</li>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <h3>
-      <ul>
-        <li>Sustem administrator-HT LLC.</li>
-      </ul>
-    </h3>
-    <ul>
-      <li>Started working at July 2023 and right now I am current imploye in the compani.</li>
-      <li>Work with Linux opereiting system.</li>
-      <li>
-        Every day trable shooting and noting downeverything what you done.
-      </li>
-      <li>
-        Constent comunication with people from other countries, like Jepen or
-        China.
-      </li>
-    </ul>
-    <hr />
-    <h2>Skills</h2>
-    <ul>
-      <li>Linux<img src="./3.5stars image.jpeg" height="15" /></li>
-      <li>Comunication skills<img src="./4 stars image.jpg" height="25" /></li>
-      <li>Trable Shooting<img src="./3 stars image.jpg" height="25"</li>
-    </ul>
-    <hr />
-    <h2>Awards and configurations</h2>
-    <ul>
-      <li>One of the first people on the planet</li>
-    </ul>
-    <hr />
-    <h2>Other</h2>
-    <a href="./hobbies.html">My Hobbies</a>
-    <br />
-    <a href="./contactme.html">Contact Me</a>
-   <p> <footer>© Ihor melnyk. All rightes reserved.</footer></p>
+    <div id="together">
+      <img
+        id="image"
+        src="./assets/images/darkwing_duck_-_screenshot_-_h_-_2016.webp"
+      />
+      <div id="text">
+        <h1 id="heading">Darkwing Duck</h1>
+        <p id="paragraph">The Batman of the Mickeyversc</p>
+      </div>
+    </div>
   </body>
 </html>
